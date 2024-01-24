@@ -620,11 +620,14 @@
         </section>
     </main>
 
-    <footer class="footer p-10 lg:py-[100px] lg:px-[135px] text-center lg:text-left bg-[#131318] text-base text-[rgba(255,255,255,0.6)]">
-        <aside class="">
+    <footer
+        class="footer p-10 lg:py-[100px] lg:px-[135px] text-center lg:text-left bg-[#131318] text-base text-[rgba(255,255,255,0.6)] grid grid-cols-1 lg:grid-cols-4">
+
+        <aside class="flex flex-col">
             <div class="flex flex-col gap-4">
                 <h3 class="text-[28px] font-extrabold text-white">Get In Touch</h3>
-                <p class="max-w-[346px]">You can use the contact information on their websites or social media pages, or
+                <p class="max-w-[346px]">You can use the contact information on their websites or social media
+                    pages, or
                     fill out an online form if they have one.</p>
             </div>
             <div class="flex flex-col gap-[18px] mt-[21px] lg:mt-[25px] mx-auto lg:mx-0">
@@ -637,26 +640,42 @@
                 </div>
             </div>
         </aside>
-        <nav>
-            <header class="footer-title">Services</header>
-            <a class="link link-hover">Branding</a>
-            <a class="link link-hover">Design</a>
-            <a class="link link-hover">Marketing</a>
-            <a class="link link-hover">Advertisement</a>
+
+        <div class="col-span-2 flex mx-auto">
+            <nav class="flex flex-col gap-[29px] mx-auto">
+                <header class="text-lg font-bold text-white mx-auto lg:mx-0">Company</header>
+                <div class="flex flex-col gap-4">
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Leadership</a>
+                    <a class="link link-hover">Careers</a>
+                    <a class="link link-hover">News & Article</a>
+                    <a class="link link-hover">Legal Notice</a>
+                </div>
+            </nav>
+
+            <nav class="flex flex-col gap-[29px] mx-auto">
+                <header class="text-lg font-bold text-white mx-auto lg:mx-0">Support</header>
+                <div class="flex flex-col gap-4">
+                    <a class="link link-hover">Help Center</a>
+                    <a class="link link-hover">FAQ</a>
+                    <a class="link link-hover">Ticket Support</a>
+                    <a class="link link-hover">Contact Us</a>
+                </div>
+            </nav>
+        </div>
+
+        <nav class="flex flex-col gap-[29px] lg:mt-0 mx-auto">
+            <header class="text-lg font-bold text-white mx-auto lg:mx-0">Services</header>
+            <div class="flex flex-col gap-4">
+                <a class="link link-hover">Academy</a>
+                <a class="link link-hover">Group Lesson</a>
+                <a class="link link-hover">Private Lesson</a>
+                <a class="link link-hover">Hockeys for kids</a>
+                <a class="link link-hover">Hockeys for Adult</a>
+            </div>
         </nav>
-        <nav>
-            <header class="footer-title">Company</header>
-            <a class="link link-hover">About us</a>
-            <a class="link link-hover">Contact</a>
-            <a class="link link-hover">Jobs</a>
-            <a class="link link-hover">Press kit</a>
-        </nav>
-        <nav>
-            <header class="footer-title">Legal</header>
-            <a class="link link-hover">Terms of use</a>
-            <a class="link link-hover">Privacy policy</a>
-            <a class="link link-hover">Cookie policy</a>
-        </nav>
+        </div>
+
     </footer>
 </body>
 
